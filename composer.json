@@ -1,0 +1,15 @@
+{
+    "name": "vasee/htdocs",
+    "description": "first",
+    "type": "library",
+    "require": {
+        "gemini-api-php/client": "^1.3",
+        "symfony/http-client": "^7.0",
+        "nyholm/psr7": "^1.8"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
